@@ -16,10 +16,10 @@ function Services() {
   };
 
   return (
-    <div className=' h-[95vh] bg-white p-14 flex items-center flex-col gap-8'>
+    <div className=' min-h-[95vh] bg-white p-14 flex items-center flex-col gap-8'>
         <p className=' text-[40px] font-bold leading-[40px]'>Explore Our Services</p>
         <p className=' text-sm font-medium'>Unleash your potential in our state-of-the-art facility, equipped with top-notch <span className=' block'>equipment and expert  trainers. join us on a journey  to a stonger,healthier you.</span> </p>
-        <div className=' flex gap-5'>
+        <div className=' flex gap-5 w-full'>
             <div onClick={()=>updateSelected("team")} className={`h-[220px] w-[350px]  p-4 flex flex-col items-center gap-2 rounded cursor-pointer  ${selected.team?"shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]":""}`}>
                 <div>
                     <Teamicon h={35} w={35} c='black'/>
