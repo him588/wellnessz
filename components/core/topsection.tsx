@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import imf from "../../public/scott-webb-JNPvv1u8yRg-unsplash.jpg"
+import imf from "../../public/anastase-maragos-4dlhin0ghOk-unsplash.jpg"
 import Header from './header'
 function Topsection() {
   return (

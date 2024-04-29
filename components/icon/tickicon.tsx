@@ -5,13 +5,13 @@ function TickIcon({h,w,c}:Iconprop) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="256"
-      height="256"
+      width={w}
+      height={h}
       fill="none"
       viewBox="0 0 24 24"
     >
       <path
-        stroke="#c12f2f"
+        stroke={c}
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="2.5"

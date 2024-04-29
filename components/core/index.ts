@@ -1,3 +1,4 @@
 import Topsection from "./topsection";
 import Services from "./services";
-export {Topsection,Services}
+import News from "./news";
+export {Topsection,Services,News}

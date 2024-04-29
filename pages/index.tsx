@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { Services, Topsection } from "@/components/core";
+import { News, Services, Topsection } from "@/components/core";
 import Package from "@/components/core/package";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,6 +14,7 @@ export default function Home() {
         <Topsection/>
         <Services/>
         <Package/>
+        <News/>
       </div>
       
     </main>
